@@ -18,7 +18,7 @@ export function RulesDialog({ snapshot }: { snapshot: Snapshot }) {
 
   return (
     <Dialog>
-      <DialogTrigger render={<Button variant="outline" size="sm" />}> 规则</DialogTrigger>
+      <DialogTrigger render={<Button variant="outline" size="sm" />}>规则</DialogTrigger>
       <DialogContent className="sm:max-w-md">
         <DialogHeader>
           <DialogTitle>模拟交易规则</DialogTitle>
